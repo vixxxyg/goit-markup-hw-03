@@ -1,0 +1,202 @@
+:root {
+  --accent: #2196f3;
+  --secondary-text-color: #212121;
+  --white: #ffffff;
+  --bgc-secondary: #2f303a;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+body {
+  background-color: #ffffff;
+  color: #757575;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+}
+
+/* дает ссылкам цвет body */
+.top .link {
+  color: inherit;
+}
+
+/* убирает маркеры со списков */
+.list {
+  list-style: none;
+}
+
+/* убирает подчеркивание ссылок */
+.link {
+  text-decoration: none;
+}
+
+.logo {
+  color: #000000;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+.web {
+  color: var(--accent);
+}
+
+/* подсвечивает текущую страницу */
+.link.current {
+  color: var(--accent);
+}
+
+/* ховер и фокус на ссылках */
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent);
+}
+
+.contacts .link:hover,
+.contacts .link:focus {
+  color: var(--accent);
+}
+
+.hero {
+  background-color: var(--bgc-secondary);
+}
+.hero-title {
+  color: var(--white);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+/* главная кнопка */
+.btn.primary {
+  color: var(--white);
+  background-color: var(--accent);
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+}
+
+.btn.primary:hover,
+.btn.primary:focus {
+  color: var(--accent);
+  background-color: var(--white);
+}
+
+/* кнопки на портфолио */
+.btn.secondary {
+  color: var(--secondary-text-color);
+  background-color: #f5f4fa;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+}
+
+.btn.secondary:hover,
+.btn.secondary:focus {
+  color: var(--white);
+  background-color: var(--accent);
+}
+
+/* Особенности */
+.list.features .title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.list.features .text {
+  font-weight: normal;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+.section-job,
+.section-team {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+.site-nav a,
+.list.features .title,
+.name,
+.section-job,
+.section-team,
+.list-item-title {
+  color: var(--secondary-text-color);
+}
+
+.name,
+.position {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+.position {
+  font-weight: normal;
+}
+
+/* подвал */
+.address {
+  font-style: inherit;
+}
+
+.footer {
+  background-color: var(--bgc-secondary);
+}
+
+.logo-footer {
+  color: var(--white);
+}
+
+.address > p {
+  color: var(--white);
+  font-weight: normal;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+.bottom .link {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.list-item-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+}
