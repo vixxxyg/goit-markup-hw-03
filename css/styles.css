@@ -211,6 +211,7 @@ p {
   text-align: center;
   letter-spacing: 0.03em;
   cursor: pointer;
+  border: transparent;
 }
 
 .btn.secondary:hover,
@@ -409,4 +410,21 @@ img {
   border: 1px solid #eeeeee;
   border-top: none;
   max-width: 100%;
+}
+
+/* синхронизация размера карточек*/
+
+.item-product {
+  display: flex;
+}
+
+.card-link {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: inherit;
+}
+
+.card-product {
+  flex-grow: 1;
 }
