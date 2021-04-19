@@ -172,7 +172,6 @@ p {
   line-height: 1.4;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  margin-bottom: 30px;
 }
 
 /* главная кнопка */
@@ -306,13 +305,13 @@ p {
 .card-set {
   display: flex;
   flex-wrap: wrap;
-  margin-top: -50px;
+  margin-top: -30px;
   margin-left: -30px;
   justify-content: center;
 }
 
 .item {
-  margin-top: 50px;
+  margin-top: 30px;
   margin-left: 30px;
   flex-basis: calc((100% - 3 * 30px) / 3);
 }
@@ -324,7 +323,7 @@ img {
 }
 
 .card {
-  margin-top: 50px;
+  margin-top: 30px;
   margin-left: 30px;
   text-align: center;
   flex-basis: calc((100% - 4 * 30px) / 4);
@@ -344,9 +343,13 @@ img {
   display: flex;
   flex-direction: column;
 }
+.contacts.list.bottom {
+  line-height: 1.7;
+}
 
-.list.bottom > li {
+.mailto {
   margin-top: 9px;
+  margin-bottom: 9px;
 }
 
 .footer {
@@ -367,7 +370,11 @@ img {
   font-weight: normal;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  margin-top: 20px;
+}
+
+.second.logo.link {
+  display: block;
+  margin-bottom: 20px;
 }
 
 .bottom .link {
@@ -392,6 +399,7 @@ img {
   margin-right: 10px;
 }
 
+/* Сетка продуктов */
 .list.products {
   display: flex;
   flex-wrap: wrap;
@@ -412,7 +420,7 @@ img {
   max-width: 100%;
 }
 
-/* синхронизация размера карточек*/
+/* синхронизация размера карточек */
 
 .item-product {
   display: flex;
@@ -427,4 +435,4 @@ img {
 
 .card-product {
   flex-grow: 1;
-}
+} 
